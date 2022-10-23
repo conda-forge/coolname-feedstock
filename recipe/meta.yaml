@@ -1,5 +1,5 @@
 {% set name = "coolname" %}
-{% set version = "1.1.0" %}
+{% set version = "2.0.0" %}
 
 
 package:
@@ -8,10 +8,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/coolname-{{ version }}.tar.gz
-  sha256: 410fe6ea9999bf96f2856ef0c726d5f38782bbefb7bb1aca0e91e0dc98ed09e3
+  sha256: 7b4711c07016ab91feded8b87dc86ce376d1f972841f51dc85ec4f8c296f79ac
 
 build:
-  number: 5
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
