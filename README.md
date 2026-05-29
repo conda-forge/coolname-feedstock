@@ -147,4 +147,5 @@ Feedstock Maintainers
 =====================
 
 * [@ocefpaf](https://github.com/ocefpaf/)
+* [@vinisalazar](https://github.com/vinisalazar/)
 
